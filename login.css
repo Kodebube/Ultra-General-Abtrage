@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: none;
+    display: flex;
+    background: black;
+    justify-content: center;
+}
+
+.only {
+    max-width: 700px;
+    background: url(images/bgg.png);
+    width: 100%;
+    min-height: 97.5vh;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+.only h1 {
+    font-size: 4em;
+    font-family: sans-serif;
+}
+
+input {
+    margin-bottom: 50px;
+    width: 60%;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+}
+
+button {
+    height: 35px;
+    float: left;
+    margin-left: -260px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    float: none;
+    margin: 0;
+    padding: 20px;
+    cursor: context-menu;
+}
+
+button a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#stop {
+    margin-bottom: 9px;
+}
+
+a {
+    color: white;
+    float: left;
+    margin-left: 28px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.link {
+    margin-left: 150px;
+}
+
+#second {
+    margin-left: 240px;
+}
+
+@media screen and (max-width: 800px) {
+    .only h1 {
+        font-size: 2.5em;
+        margin-top: 60px;
+    }
+
+    .link {
+        margin-left: 20%;
+    }
+
+    input {
+        margin-bottom: 30px;
+        width: 80%;
+        padding: 12px;
+    }
+
+    #second {
+        margin-left: 20px;
+    }
+    
+    button {
+        height: 35px;
+        margin-left: -90px;
+    }
+}

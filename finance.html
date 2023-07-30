@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA - Finances</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="finance.css">
+    <link rel="icon" href="heart favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="section1" id="menu"><!--<h1 style="font-size:10vw">Hello World</h1>-->
+        <div class="refresh"><a href="index.html">
+                <h1><i class="fa fa-heart"></i> Ultra General Arbtrage</h1>
+            </a></div>
+        <ul>
+            <i class="fa fa-window-close" onclick="hidemenu()" id="hidemenu"></i>
+            <li title="The Home of the Champion!"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+            <li title="Connect and grow your team"><a href="team.html"><i class="fa fa-group"></i>Team</a></li>
+            <li title="Invest with UGA"><a href="invest.html"><i class="fa fa-bar-chart"></i>Invest</a></li>
+            <li title="Manage your finances"><a href="finance.html" id="shiny"><i class="fa fa-money"></i>Finances</a>
+            </li>
+            <li title="Your Profile"><a href="you.html"><i class="fa fa-user"></i>You</a></li>
+            <li title="Send us your feedback"><a href="contact.html"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li title="Learn more about us"><a href="about.html"><i class="fa fa-question"></i>About UGA</a>
+            <li title="Exit your account"><a href="login.html"><i class="fa fa-sign-out"></i>Log out</a></li>
+        </ul>
+        <h4>Follow us on social media:</h4>
+        <div class="socials">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1 id="welcome">FINANCES</h1>
+        <i class="fa fa-bars" onclick="showmenu()" id="showmenu"></i>
+        <div class="acc">
+            <h1 id="acc-bal">Account Balance: Undefined</h1><br>
+            <div class="earn">
+                <h1 id="acc-rate">Earning rate: $0.002/hr</h1><br>
+                <h1 id="acc-prof">Profit earned per hour: Undefinded</h1><br>
+            </div>
+        </div>
+
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+        <p id="demo"></p>
+
+        <nav class="dlinks">
+            <a href="1finance.html">DEPOSIT MONEY</a>
+            <a href="#" id="do1">SELECT YOUR PAYMENT OPTION</a>
+            <a href="#">PURCHASE AN INVESTMENT PACKAGE</a>
+            <a href="#">WITHDRAWAL HISTORY</a>
+        </nav>
+
+        <div>
+            <p>Please note that the your account balance on the finance page is updated every 24 hours. Precisely, 12:00
+                noon GMT. Although, deposits and transfers you make to your team members are debitted and as well
+                received the moment you make the transfer. If your prospect does not received the money, and you were
+                not refunded, please <a href="#">contact us</a> to rectify the problem.</p>
+        </div>
+    </section>
+    <script src="finance.js"></script>
+</body>
+
+</html>

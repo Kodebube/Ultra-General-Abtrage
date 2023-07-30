@@ -1,0 +1,195 @@
+.all {
+    margin: 0;
+    padding-top: 78px;
+    font-family: sans-serif;
+    background-color: black;
+    min-width: 177.5vh;
+}
+
+footer {
+    background: greenyellow;
+    text-align: center;
+    padding: 17px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: none;
+    transition: 0.4s ease all;
+}
+
+.me {
+    color: white;
+    background-color: #111;
+    width: 100%;
+}
+
+.me h1 {
+    font-size: 4em;
+}
+
+.me h2 {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background: #444242;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.me img {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin: 20px auto 10px 50px;
+}
+
+.me p {
+    padding: 20px;
+}
+
+.me a {
+    text-decoration: none;
+    color: white;
+    cursor: context-menu;
+}
+
+#mee {
+    float: right;
+    margin-right: 700px;
+    margin-top: 35px;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+hr {
+    background-color: black;
+    border: none;
+    height: 26px;
+}
+
+.spann {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-family: cursive;
+    margin-left: 40px;
+}
+
+#down {
+    border-bottom: white dotted 0.5px;
+}
+
+#reddot {
+    display: flex;
+    margin-top: 50px;
+}
+
+#down:hover .fa-caret-down {
+    color: red;
+    display: block;
+    font-weight: bolder;
+}
+
+.fa-caret-down {
+    float: right;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .section2 {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .section2 #welcome {
+        background: greenyellow;
+        left: 0;
+        top: 0;
+        right: 0;
+        padding: 20px 50px;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+        z-index: 1000;
+        font-size: 15px;
+    }
+
+    .all {
+        margin: 0;
+        padding-top: 78px;
+        min-width: 100%;
+        min-height: 1px;
+    }
+
+    footer {
+        padding: 13px;
+        font-size: 13px;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+
+    .me {
+        width: 100%;
+    }
+
+    .me h1 {
+        font-size: 2em;
+    }
+
+    .me h2 {
+        margin-left: 20px;
+        padding: 10px 15px;
+        width: 94px;
+        font-size: 20px;
+    }
+
+    .me img {
+        height: 90px;
+        width: 90px;
+        margin: 20px auto 10px 80px;
+    }
+
+    .me p {
+        padding: 20px;
+    }
+
+    .me em {
+        font-size: 14px;
+    }
+
+    #mee {
+        float: none;
+        margin-right: 20px;
+        margin-top: -100px;
+        margin-left: 200px;
+    }
+
+    hr {
+        height: 15px;
+    }
+
+    .spann {
+        font-size: 1em;
+        margin-left: 30px;
+    }
+    #reddot {
+        display: flex;
+        margin-top: 30px;
+    }
+}

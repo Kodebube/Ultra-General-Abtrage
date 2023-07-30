@@ -1,0 +1,265 @@
+.all {
+    margin-bottom: 50px;
+    color: white;
+    text-align: right;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    background: url(images/home-bg.jpg) no-repeat center;
+    min-height: 50vh;
+    padding: 100px 96px 50px 450px;
+    zoom: 1;
+}
+
+.bodyy {
+    display: flex;
+    justify-content: center;
+}
+
+.bodyy h1 {
+    background: green;
+    width: 1000px;
+    color: white;
+    padding: 6px;
+}
+
+.one {
+    background: cornsilk;
+    margin-bottom: 50px;
+    height: 280px;
+}
+
+.one .fa {
+    margin-right: 13px;
+    margin-left: 6px;
+}
+
+.one video {
+    width: 450px;
+    height: 240px;
+    float: right;
+}
+
+.one img {
+    float: right;
+}
+
+#one {
+    font-size: 1.8em;
+    font-family: sans-serif;
+    text-align: center;
+    float: left;
+    margin: 20px auto auto 60px;
+    width: 350px;
+}
+
+#one1 {
+    font-size: 1.8em;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px auto auto 60px;
+    width: 350px;
+    float: right;
+    margin-right: 70px;
+}
+
+#one2 {
+    font-size: 1.8em;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px auto auto 60px;
+    width: 350px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 47px;
+}
+
+#one button,
+#one1 button {
+    border: 2ps solid cornsilk;
+    width: 100%;
+    background: lawngreen;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#one button a,
+#one1 button a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#one button:hover {
+    box-shadow: 0px 0px 20px 0px rgba(180, 180, 180, .5);
+    transition: 0.5 ease all;
+}
+
+#one button a:active {
+    color: yellow;
+}
+
+footer {
+    background: greenyellow;
+    text-align: center;
+    padding: 17px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: none;
+    transition: 0.4s ease all;
+}
+
+#two {
+    height: 240px;
+    width: 400px;
+    margin: auto 120px auto 0;
+}
+
+#three {
+    width: 300px;
+    height: 180px;
+    margin-right: 100px;
+    margin-top: 28px;
+}
+
+#four {
+    background: url(images/bgg.png);
+    display: block;
+    position: static;
+    width: 500px;
+    margin: 80px 30px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    padding: 24px 0;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    /*----------Top nav----------*/
+
+    .section2 {
+        position: absolute;
+        left: 0;
+        width: auto;
+    }
+
+    .section2 #welcome {
+        background: greenyellow;
+        left: 0;
+        top: 0;
+        right: 0;
+        padding: 20px 50px;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+        z-index: 1000;
+        font-size: 15px;
+    }
+
+
+    .all {
+        margin-bottom: 30px;
+        font-size: .8em;
+        background: url(images/home-bg.jpg) no-repeat;
+        min-height: 28vh;
+        padding: none;
+        padding: 85px 50px 50px 100px;
+        zoom: 1;
+    }
+
+    .all p {
+        margin: auto;
+    }
+
+    .bodyy h1 {
+        width: auto;
+        font-size: 17px;
+    }
+
+    .one {
+        margin-bottom: 30px;
+        height: auto;
+        width: 90%;
+        margin-right: 10px;
+    }
+
+    .one .fa {
+        margin-right: 9px;
+        margin-left: 7px;
+    }
+
+    .one video {
+        width: 40%;
+        height: 120px;
+        float: right;
+    }
+
+    .one img {
+        float: none;
+    }
+
+    #one, #one1, #one2 {
+        font-size: 15px;
+        margin: 10px 10px auto 15px;
+        width: 38vw;
+    }
+
+    #vanish {
+        display: none;
+    }
+    
+    #two {
+        position: absolute;
+        height: 120px;
+        width: 40%;
+    }
+
+    #one button, #one1 button {
+        width: 100%;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    #one button a, #one1 button a {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 13px;
+        font-size: 13px;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+
+    #three {
+        height: 120px;
+        width: 40%;
+        margin: 10px 10px auto 10px;
+    }
+
+    #four {
+        width: 50vw;
+        float: left;
+        margin: auto;
+        margin-top: -89px;
+        font-size: .7em;
+        font-weight: bolder;
+        padding: 10px 7px;
+    }
+}

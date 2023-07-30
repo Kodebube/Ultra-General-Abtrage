@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="heart favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+</head>
+
+<body>
+    <section class="section1" id="menu"><!--<h1 style="font-size:10vw">Hello World</h1>-->
+        <div class="refresh"><a href="index.html">
+                <h1><i class="fa fa-heart"></i> Ultra General Arbtrage</h1>
+            </a></div>
+        <ul>
+            <i class="fa fa-window-close" onclick="hidemenu()" id="hidemenu"></i>
+            <li title="The Home of the Champion!"><a href="index.html" id="shiny"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li title="Connect and grow your team"><a href="team.html"><i class="fa fa-group"></i>Team</a></li>
+            <li title="Invest with UGA"><a href="invest.html"><i class="fa fa-bar-chart"></i>Invest</a></li>
+            <li title="Manage your finances"><a href="finance.html"><i class="fa fa-money"></i>Finances</a></li>
+            <li title="Your Profile"><a href="you.html"><i class="fa fa-user"></i>You</a></li>
+            <li title="Send us your feedback"><a href="contact.html"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li title="Learn more about us"><a href="about.html"><i class="fa fa-question"></i>About UGA</a>
+            <li title="Exit your account"><a href="login.html"><i class="fa fa-sign-out"></i>Log out</a></li>
+        </ul>
+        <h4>Follow us on social media:</h4>
+        <div class="socials">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1 id="welcome"></h1>
+        <div class="all">
+            <i class="fa fa-bars" onclick="showmenu()" id="showmenu"></i>
+            <h1>You're <span style="color: chartreuse;">In Control</span></h1><br>
+            <p>This is the Control Panel for your <span style="color: yellow;">UGA</span> business! From here, you can
+                view your product orders, genealogy, earnings, and have full access to all the tools and training
+                available to help you share the products and build your team.</p><br>
+        </div>
+
+        <div class="bodyy">
+            <div class="one">
+                <h1><i class="fa fa-tv"></i>Watch Tutuorial</h1>
+                <div id="one">Everything you need to know about UGA in 15 minutes.<br><br>
+                    <button><a href="JavaScript Full Course for free 🌐 (2023).mp4"><i class="fa fa-tv"></i>Watch
+                            now</a></button>
+                </div>
+                <video controls autoplay muted>
+                    <source src="JavaScript Full Course for free 🌐 (2023).mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="bodyy">
+            <div class="one">
+                <h1><i class="fa fa-inr"></i>Invest in UGA</h1>
+                <div id="one1"><span id="heee">Get up to 15% interest from your
+                        deposits and
+                        stand a chance to participate in flashy deals!</span><br><br>
+                    <span><button><a href="finance.html"><i class="fa fa-bar-chart"></i><span id="vanish">Manage your</span>
+                                Finances</a></button></span>
+                </div>
+                <img src="images/Invest.jpg" alt="Invest image" id="two">
+            </div>
+        </div>
+
+        <div class="bodyy"><!--fa-sitemap-->
+            <div class="one">
+                <h1><i class="fa fa-sitemap"></i>Join the matrix</h1>
+                <div id="one">Create a life-time of passive income with our fast-growing matrix.<br><br>
+                    <button><a href="team.html"><i class="fa fa-address-book"></i>View your Matrix</a></button>
+                </div>
+                <img src="images/Genealogy2.png" alt="genealogy diagram" id="three">
+            </div>
+        </div>
+
+        <div class="bodyy">
+            <div class="one">
+                <h1><i class="fa fa-link"></i>Your referral link</h1>
+                <div id="one2">Invite your
+                    friends and
+                    co-workers to join your matrix and earn $1 instantly using your referral link.<br><br>
+                </div>
+                <p id="four">https://www.UGAtour/<br><span id="linkk"></span>.com</p>
+            </div>
+        </div>
+        <footer><a href="privacy.html">Privacy Policy</a> || UGA || <a href="T&C.html">Terms of Service</a></footer>
+    </section>
+    <p id="whatt" style="display: none;"></p>
+    <script src="index.js"></script>
+</body>
+
+</html>

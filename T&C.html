@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA - Deposit Money</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="heart favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .top {
+            padding: 100px 50px 80px 50px;
+            font-family: sans-serif;
+            color: white;
+            background: black;
+            margin: 10px 50px 0 50px;
+            font-family: sans-serif;
+        }
+
+        .top h1 {
+            font-weight: bold;
+            color: greenyellow;
+            margin: auto 30px 20px auto;
+            font-size: 2em;
+        }
+
+        .top p {
+            margin-right: 100px;
+            margin-bottom: 20px;
+        }
+
+        .top a {
+            color: white;
+        }
+
+        .top a:hover {
+            color: yellow;
+        }
+
+        .top a:active {
+            color: red;
+        }
+
+        hr {
+            margin-bottom: 26px;
+        }
+
+        footer {
+            background: greenyellow;
+            text-align: center;
+            padding: 17px;
+            font-weight: bold;
+            color: black;
+        }
+
+        footer a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        footer a:hover {
+            color: red;
+            text-decoration: none;
+            transition: 0.4s ease all;
+        }
+
+        #active {
+            color: red;
+        }
+
+        @media screen and (max-width: 800px) {
+
+            #showmenu {
+                color: whitesmoke;
+                margin-top: 20px;
+            }
+
+            .section2 {
+                position: absolute;
+                left: 0;
+                width: auto;
+            }
+
+            .section2 #welcome {
+                background: greenyellow;
+                left: 0;
+                top: 0;
+                right: 0;
+                padding: 20px 50px;
+                position: absolute;
+                width: 100%;
+                text-align: right;
+                z-index: 1000;
+                font-size: 15px;
+            }
+
+            .top {
+                padding: 120px 30px 20px 50px;
+                margin: 10px 0 0 0;
+                width: 100%;
+            }
+
+            .top h1 {
+                margin: auto 0 20px 0;
+                font-size: 1em;
+            }
+
+            .top p {
+                margin-right: auto;
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+            
+            footer {
+                padding: 13px;
+                font-size: 13px;
+            }
+
+            footer a {
+                font-size: 13px;
+            }
+
+            hr {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section1" id="menu"><!--<h1 style="font-size:10vw">Hello World</h1>-->
+        <div class="refresh"><a href="index.html">
+                <h1><i class="fa fa-heart"></i> Ultra General Arbtrage</h1>
+            </a></div>
+        <ul>
+            <i class="fa fa-window-close" onclick="hidemenu()" id="hidemenu"></i>
+            <li title="The Home of the Champion!"><a href="index.html"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li title="Connect and grow your team"><a href="team.html"><i class="fa fa-group"></i>Team</a></li>
+            <li title="Invest with UGA"><a href="invest.html"><i class="fa fa-bar-chart"></i>Invest</a></li>
+            <li title="Manage your finances"><a href="finance.html"><i class="fa fa-money"></i>Finances</a></li>
+            </li>
+            <li title="Your Profile"><a href="you.html"><i class="fa fa-user"></i>You</a></li>
+            <li title="Send us your feedback"><a href="contact.html"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li title="Learn more about us"><a href="about.html"><i class="fa fa-question"></i>About UGA</a>
+            <li title="Exit your account"><a href="login.html"><i class="fa fa-sign-out"></i>Log out</a></li>
+        </ul>
+        <h4>Follow us on social media:</h4>
+        <div class="socials">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1 id="welcome">Terms of Service</h1>
+        <div class="top">
+            <i class="fa fa-bars" onclick="showmenu()" id="showmenu" style="top: 68px;"></i>
+            <h1>Overview</h1>
+            <p>The website and the solutions are operated and managed by separate entities. Refsnes Data offers the
+                website (UGA.com) including all its content, information, and related tools. The solutions (Such as
+                Spaces, Courses, and My learning) and billing system are operated by UGA Network. The two entities are
+                separately responsible for the services that they provide, manage and operate.</p>
+            <p>Throughout the site, the terms "we", "us" and "our" refer to Refsnes Data and UGA Network.</p>
+            <p>By visiting our site and/or purchasing something from us, you engage in our "Service" and agree to be
+                bound by the following terms and conditions ("Terms of Service", "Terms"), including those additional
+                terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of
+                Service apply to all users of the site, including without limitation users who are browsers, vendors,
+                customers, merchants, and/or contributors of content.</p>
+            <p>Please read these Terms of Service carefully before accessing or using our website or services. By
+                accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not
+                agree to all the terms and conditions of this agreement, then you may not access the website or use any
+                services.</p>
+            <p>Any new features or tools which are added to the current site shall also be subject to the Terms of
+                Service. You can review the most current version of the Terms of Service at any time on this page. We
+                reserve the right to update, change or replace any part of these Terms of Service by posting updates
+                and/or changes to our website. It is your responsibility to check this page periodically for changes.
+                Your continued use of or access to the website following the posting of any changes constitutes
+                acceptance of those changes.</p>
+            <hr>
+            <h1>Site Usage Terms</h1>
+            <p>We reserve the right to refuse service to anyone for any reason at any time.</p>
+            <p>You understand that your content may be transferred unencrypted and involve (a) transmissions over
+                various networks, and (b) changes to conform and adapt to technical requirements of connecting networks
+                or devices.</p>
+            <p>Credit card information is always encrypted during transfer over networks, and are processed and handled
+                by our selected Payment Service Providers. We only preserve the last four-digit and expiry date of your
+                Credit card. This is, among other things, to let you know in advance if your Credit card is soon to
+                expire, so that we can assure the continuous running of your Services with us.</p>
+            <p>You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of
+                the Service, or access to the Service or any contact on the website through which the service is
+                provided, without express written permission by us.</p>
+            <p>The headings used in this agreement are included for convenience only and will not limit or otherwise
+                affect these Terms.</p>
+            <hr>
+            <h1>Modifications to the Service and Prices</h1>
+            <p>By agreeing to a subscription price, you will remain on that price for the duration of the payment term.
+                Prices are subject to change at the end of your next payment term, and we will do our best to clearly
+                inform you about any price change in advance of your next billing period.</p>
+            <p>We shall not be liable to you or to any third-party for any modification, price change, suspension or
+                discontinuance of the Service.</p>
+            <hr>
+            <h1>Products or Services</h1>
+            <p>Certain products or services may be available exclusively online through the website.</p>
+            <p>We reserve the right, but are not obligated, to limit the sales of our products or Services to any
+                person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis.</p>
+            <p>We reserve the right to limit the quantities of any products or services that we offer. All descriptions
+                of products or product pricing are subject to change at any time without notice, at the sole discretion
+                of us.</p>
+            <p>We reserve the right to discontinue any product at any time. Any offer for any product or service made on
+                this site is void where prohibited.</p>
+            <hr>
+            <h1>Refund Policy</h1>
+            <span>Investment packages:</span><br><br>
+            <p>You may withdraw from an investment package for any reason within 7 days after the date you first receive
+                access to the service, which is the date of the email sent to you containing access to the investment
+                program. If your investment package has been going for over 1 week (7 days), purchases are considered
+                final and are not eligible for a refund. For any questions or issues with your product, please contact
+                our support at UGA@gmail.com. Otherwise, all purchases are considered final after 14 days.</p>
+            <span>Deposits, Plans & Flashy Deals:</span><br><br>
+            <p>We issue no refunds for Deposits, plans and seasonly Flashy Deals. You may cancel your subscription with
+                UGA anytime, but you won't be issued a refund for the billed period. The only exception is in legal
+                matters such as fraud and misuse.</p>
+            <hr>
+            <h1>Accuracy of Billing and Account Information</h1>
+            <p>We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or
+                cancel quantities purchased per person, per household or per order. These restrictions may include
+                orders placed by or under the same customer account, the same credit card, and/or orders that use the
+                same billing and/or shipping address.</p>
+            <p>In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the
+                e‑mail and/or billing address/phone number provided at the time the order was made.</p>
+            <p>We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by
+                dealers, resellers or distributors.</p>
+            <p>You agree to provide current, complete and accurate purchase and account information for all purchases
+                made on our site. You agree to promptly update your account and other information, including your email
+                address and credit card numbers and expiration dates, so that we can complete your transactions and
+                contact you as needed.</p>
+            <hr>
+            <h1>Third-Party Links</h1>
+            <p>Certain content, products and services available via our Service may include materials from
+                third-parties.</p>
+            <p>Third-party links on this site may direct you to third-party websites that are not affiliated with us. We
+                are not responsible for examining or evaluating the content or accuracy and we do not warrant and will
+                not have any liability or responsibility for any third-party materials or websites, or for any other
+                materials, products, or services of third-parties.</p>
+            <p>We are not liable for any harm or damages related to the purchase or use of goods, services, resources,
+                content, or any other transactions made in connection with any third-party websites. Please review
+                carefully the third-party's policies and practices and make sure you understand them before you engage
+                in any transaction. Complaints, claims, concerns, or questions regarding third-party products should be
+                directed to the third-party.</p>
+            <p>If, at our request, you send certain specific submissions (for example contest entries) or without a
+                request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether
+                online, by email, by postal mail, or otherwise (collectively, 'comments'), you agree that we may, at any
+                time, without restriction, edit, copy, publish, distribute, translate and otherwise use in any medium
+                any comments that you forward to us.</p>
+            <p>We are and shall be under no obligation (1) to maintain any user content in confidence; (2) to pay
+                compensation for any user content; or (3) to respond to any comments.</p>
+            <p>We may, but have no obligation to, monitor, edit or remove content that we determine in our sole
+                discretion are unlawful, offensive, threatening, libelous, defamatory, pornographic, obscene or
+                otherwise objectionable or violates any party's intellectual property or these Terms of Service.</p>
+            <p>You agree that your user content will not violate any right of any third-party, including copyright,
+                trademark, privacy, personality or other personal or proprietary right. You further agree that your user
+                content will not contain libelous or otherwise unlawful, abusive or obscene material, or contain any
+                computer virus or other malware that could in any way affect the operation of the Service or any related
+                website. This includes any intellectual property, copyrighted material, trademark, patents and privacy
+                rights.</p>
+            <p>You may not use a false e‑mail address, pretend to be someone other than yourself, or otherwise mislead
+                us or third-parties as to the origin of any user content. You are solely responsible for any user
+                content you make and their accuracy.</p>
+            <p>We take no responsibility and assume no liability for any comments posted by you or any third-party.</p>
+            <hr>
+            <h1>Personal Information</h1>
+            <p>Your submission of personal information through the site is governed by our <a
+                    href="privacy.html">Privacy Policy.</a></p>
+            <hr>
+            <h1>Errors, Inaccuracies and Omissions</h1>
+            <p>Occasionally there may be information on our site or in the Service that contains typographical errors,
+                inaccuracies or omissions that may relate to product descriptions, pricing, promotions, offers, product
+                shipping charges, transit times and availability. We reserve the right to correct any errors,
+                inaccuracies or omissions, and to change or update information or cancel orders if any information in
+                the Service or on any related website is inaccurate at any time without prior notice (including after
+                you have submitted your order).</p>
+            <p>We undertake no obligation to update, amend or clarify information in the Service or on any related
+                website, including without limitation, pricing information, except as required by law. No specified
+                update or refresh date applied in the Service or on any related website, should be taken to indicate
+                that all information in the Service or on any related website has been modified or updated.</p>
+            <hr>
+            <h1>Prohibited Uses</h1>
+            <p>In addition to other prohibitions as set forth in the Terms of Service, you are prohibited from using the
+                site or its content:</p>
+            <p>(a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c)
+                to violate any international, federal, provincial or state regulations, rules, laws, or local
+                ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual
+                property rights of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate,
+                or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or
+                disability; (f) to submit false or misleading information; (g) to upload or transmit viruses or any
+                other type of malicious code that will or may be used in any way that will affect the functionality or
+                operation of the Service or of any related website, other websites, or the Internet; (h) to collect or
+                track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape;
+                (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of
+                the Service or any related website, other websites, or the Internet.</p>
+            <p>We reserve the right to terminate your use of the Service or any related website for violating any of the
+                prohibited uses.</p>
+            <hr>
+            <h1>Identification and Security</h1>
+            <p>We simply use the details you give to us to conifrm and ensure the security of your funds; they will be
+                demanded from you every time you make a transaction. If the email, password and biometrics do not
+                corerespond. You will be sent an alert email after the third wrong trial.</p>
+            <p>Note that your biometrics are fully our responsibility, and they are not giving to any third-party
+                websites unless you permit us or you give the third-parties yourself.</p>
+            <hr>
+            <h1>Indemnification</h1>
+            <p>You agree to indemnify, defend and hold harmless Refsnes Data as, owners, subsidiaries, affiliates,
+                partners, officers, directors, agents, contractors, licensors, service providers, subcontractors,
+                suppliers, interns and employees, harmless from any claim or demand, including reasonable attorneys'
+                fees, made by any third-party due to or arising out of your breach of these Terms of Service or the
+                documents they incorporate by reference, or your violation of any law or the rights of a third-party.
+            </p>
+            <hr>
+            <h1>Entire Agreement</h1>
+            <p>The failure of us to exercise or enforce any right or provision of these Terms of Service shall not
+                constitute a waiver of such right or provision.</p>
+            <p>These Terms of Service and any policies or operating rules posted by us on this site or in respect to The
+                Service constitutes the entire agreement and understanding between you and us and govern your use of the
+                Service, superseding any prior or contemporaneous agreements, communications and proposals, whether oral
+                or written, between you and us (including, but not limited to, any prior versions of the Terms of
+                Service).</p>
+            <p>Any ambiguities in the interpretation of these Terms of Service shall not be construed against the
+                drafting party.</p>
+            <hr>
+            <h1>Governing Law</h1>
+            <p>These Terms of Service and any separate agreements whereby we provide you Services shall be governed by
+                and construed in accordance with the laws of Canada.</p>
+            <hr>
+            <h1>Changes to Terms of Service</h1>
+            <p>You can review the most current version of the Terms of Service at any time at this page.</p>
+            <p>We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of
+                Service by posting updates and changes to our website. It is your responsibility to check our website
+                periodically for changes.</p>
+            <p>Your continued use of or access to our website or the Service following the posting of any changes to
+                these Terms of Service constitutes acceptance of those changes.</p>
+            <hr>
+            <h1>Contact Information</h1>
+            <p>If you have any questions or concerns regarding these Terms, please <a href="contact.html">contact
+                    us</a>.</p>
+        </div>
+        <footer><a href="privacy.html">Privacy Policy</a> || UGA || <a href="T&C.html" id="active">Terms of Service</a>
+        </footer>
+    </section>
+    <script>
+        function showmenu() {
+            menu.style.left = "0"
+        }
+
+        function hidemenu() {
+            menu.style.left = "-200px"
+        }
+    </script>
+</body>
+
+</html>

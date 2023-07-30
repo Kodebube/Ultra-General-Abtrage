@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA - Deposit Money</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="heart favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .top {
+            padding: 100px 50px 80px 50px;
+            font-family: sans-serif;
+            color: white;
+            background: black;
+            margin: 10px 50px 0 50px;
+            font-family: sans-serif;
+        }
+
+        .top h1 {
+            font-weight: bold;
+            color: greenyellow;
+        }
+
+        .top h1 {
+            margin: auto 30px 20px auto;
+            font-size: 2em;
+        }
+
+        .top p {
+            margin-right: 100px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: greenyellow;
+            text-align: center;
+            padding: 17px;
+            font-weight: bold;
+            color: black;
+        }
+
+        footer a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        footer a:hover {
+            color: red;
+            text-decoration: none;
+            transition: 0.4s ease all;
+        }
+
+        #active {
+            color: red;
+        }
+
+        hr {
+            margin-bottom: 26px;
+        }
+
+
+        @media screen and (max-width: 800px) {
+
+            #showmenu {
+                color: whitesmoke;
+                margin-top: -20px;
+            }
+
+            .section2 {
+                position: absolute;
+                left: 0;
+                width: 100%;
+            }
+
+            .section2 #welcome {
+                background: greenyellow;
+                left: 0;
+                top: 0;
+                right: 0;
+                padding: 20px 50px;
+                position: absolute;
+                width: auto;
+                text-align: right;
+                z-index: 1000;
+                font-size: 15px;
+            }
+
+            .top {
+                padding: 120px 50px 60px;
+                margin: 10px 0 0 0;
+                width: 100%;
+            }
+
+            .top h1 {
+                margin: auto 0 20px 0;
+                font-size: 1em;
+            }
+
+            .top p {
+                margin-right: auto;
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+
+            footer {
+                padding: 13px;
+                font-size: 13px;
+            }
+
+            footer a {
+                font-size: 13px;
+            }
+
+            hr {
+                margin-bottom: 15px;
+            }
+
+            .fa-copyright {
+                font-size: 13px;
+                float: left;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section1" id="menu"><!--<h1 style="font-size:10vw">Hello World</h1>-->
+        <div class="refresh"><a href="index.html">
+                <h1><i class="fa fa-heart"></i> Ultra General Arbtrage</h1>
+            </a></div>
+        <ul>
+            <i class="fa fa-window-close" onclick="hidemenu()" id="hidemenu"></i>
+            <li title="The Home of the Champion!"><a href="index.html"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li title="Connect and grow your team"><a href="team.html"><i class="fa fa-group"></i>Team</a></li>
+            <li title="Invest with UGA"><a href="invest.html"><i class="fa fa-bar-chart"></i>Invest</a></li>
+            <li title="Manage your finances"><a href="finance.html"><i class="fa fa-money"></i>Finances</a></li>
+            </li>
+            <li title="Your Profile"><a href="you.html"><i class="fa fa-user"></i>You</a></li>
+            <li title="Send us your feedback"><a href="contact.html"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li title="Learn more about us"><a href="about.html"><i class="fa fa-question"></i>About UGA</a>
+            <li title="Exit your account"><a href="login.html"><i class="fa fa-sign-out"></i>Log out</a></li>
+        </ul>
+        <h4>Follow us on social media:</h4>
+        <div class="socials">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1 id="welcome">Privacy Policy</h1>
+        <i class="fa fa-bars" onclick="showmenu()" id="showmenu"></i>
+        <div class="top">
+            <h1>Privacy Statement for <span style="color: yellow;">Ultra General Arbtrage</span></h1>
+            <p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit
+                or make a purchase from the site.</p><br>
+            <hr>
+            <h1>Personal information we collect</h1>
+            <p>When you visit the Site, we automatically collect certain information about your device, including
+                information about your web browser, IP address, time zone, and some of the cookies that are installed on
+                your device. Additionally, as you browse the Site, we collect information about the individual web pages
+                or products that you view, what websites or search terms referred you to the Site, and information about
+                how you interact with the Site. We refer to this automatically-collected information as "Device
+                Information".</p>
+            <hr>
+            <h1>Personal User Information</h1>
+            <p>We use the Order Information that we collect generally to fulfill any orders placed through the Site
+                (including processing your payment information, arranging for shipping, and providing you with invoices
+                and/or order confirmations). Additionally, we use this Order Information to:</p>
+            <ul>
+                <li>Communicate with you;</li>
+                <li>Screen our orders for potential risk or fraud; and</li>
+                <li>When in line with the preferences you have shared with us, provide you with information or
+                    advertising relating to our products or services.</li>
+            </ul><br>
+            <hr>
+            <h1>Do not track</h1>
+            <p>Please note that we do not alter our Site's data collection and use practices when we see a Do Not Track
+                signal from your browser.</p>
+            <hr>
+            <h1>Data Retention</h1>
+            <p>When you place an order through the Site, we will maintain your Order Information for our records unless
+                and until you ask us to delete this information.</p>
+            <hr>
+            <h1>Changes</h1>
+            <p>I can assure you that changes will not be frequent, but we may update this privacy policy from time to
+                time in order to reflect, for example, changes to our practices or for other operational, legal or
+                regulatory reasons.</p>
+            <hr>
+            <h1>Contact Us</h1>
+            <p>For more information about our privacy practices, if you have questions, or if you would like to make a
+                complaint, please contact us by e‑mail at UGA@gmail.com</p>
+            <hr>
+            <abbr style="font-weight: bold; color: yellow; margin-left: 410px;"><i class="fa fa-copyright"></i>2023
+                UGA</abbr>
+        </div>
+        <footer><a id="active" href="privacy.html">Privacy Policy</a> || UGA || <a href="T&C.html">Terms of Service</a>
+        </footer>
+    </section>
+    <script>
+        function showmenu() {
+            menu.style.left = "0"
+        }
+
+        function hidemenu() {
+            menu.style.left = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>

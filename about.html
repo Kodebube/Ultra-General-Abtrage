@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA - About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="heart favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .all {
+            margin: 0;
+            padding-top: 130px;
+            font-family: sans-serif;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: auto 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: blueviolet;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: greenyellow;
+            text-align: center;
+            padding: 17px;
+            font-weight: bold;
+        }
+
+        footer a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: red;
+            text-decoration: none;
+            transition: 0.4s ease all;
+        }
+
+        footer .socialx {
+            display: none;
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .section2 {
+                position: absolute;
+                left: 0;
+                width: auto;
+            }
+
+            .section2 #welcome {
+                background: greenyellow;
+                left: 0;
+                top: 0;
+                right: 0;
+                padding: 20px 50px;
+                position: absolute;
+                width: 100%;
+                text-align: right;
+                z-index: 1000;
+                font-size: 15px;
+            }
+
+            .all {
+                padding-top: 120px;
+            }
+
+            p {
+                font-size: .9em;
+            }
+
+            /*----------foter----------*/
+
+            footer {
+                padding: 13px;
+                font-size: 13px;
+            }
+
+            footer a {
+                font-size: 13px;
+            }
+
+            footer .socialx {
+                display: block;
+                background-color: lawngreen;
+                margin-bottom: 30px;
+            }
+
+            footer .socialx .fa {
+                font-size: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section1" id="menu"><!--<h1 style="font-size:10vw">Hello World</h1>-->
+        <div class="refresh"><a href="index.html">
+                <h1><i class="fa fa-heart"></i> Ultra General Arbtrage</h1>
+            </a></div>
+        <ul>
+            <i class="fa fa-window-close" onclick="hidemenu()" id="hidemenu"></i>
+            <li title="The Home of the Champion!"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+            <li title="Connect and grow your team"><a href="team.html"><i class="fa fa-group"></i>Team</a></li>
+            <li title="Invest with UGA"><a href="invest.html"><i class="fa fa-bar-chart"></i>Invest</a></li>
+            <li title="Manage your finances"><a href="finance.html"><i class="fa fa-money"></i>Finances</a></li>
+            <li title="Your Profile"><a href="you.html"><i class="fa fa-user"></i>You</a></li>
+            <li title="Send us your feedback"><a href="contact.html"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li title="Learn more about us"><a href="about.html" id="shiny"><i class="fa fa-question"></i>About UGA</a>
+            <li title="Exit your account"><a href="login.html"><i class="fa fa-sign-out"></i>Log out</a></li>
+        </ul>
+        <h4>Follow us on social media:</h4>
+        <div class="socials">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1 id="welcome">ABOUT US</h1>
+        <div class="all">
+            <i class="fa fa-bars" onclick="showmenu()" id="showmenu" style="top: 68px;"></i>
+            <p><strong>Ultra General Arbtrage (UGA)</strong> is an investment comapny that grows your funds depending on
+                your <a href="#">Investment</a>. We grow your coins over a period of time (of which you could monitor
+                the interest rate). We have various interst rates, and that depends on how much you are willing to
+                invest. We usually work with cryptocurrencies, but we receive in dollars too. You could make a <a
+                    href="1finance.html">deposit</a>, and begin your journey to wealth.</p><br>
+            <p><strong>Our goal</strong> is to provide you with a durable and user-friendly platform to save and grow
+                your wealth. We have worked with a team of developers whom have debugged and scanned the website
+                properly for maximum output. We are working hard in order to meet your expectations. If you have a
+                complaint or you want to make a suggestion, please do not hesitate to <a href="contact.html">contact
+                    us</a>.</p><br>
+            <p><strong>Our products:</strong> We have different investment packages. The average investment package
+                lasts at least 30 days. You could make an exception to save for a longer period of time and earn a
+                larger amount of money. If you would like to purchase an investment package, the are few things you will
+                hvae to put into consideration. The packages are explained more elaborately in the <a
+                    href="invest.html">Invest page</a>.</p><br>
+            <p><strong>How can I deposit?</strong> You could grow your funds in cryptocurrency or dollars. You make the
+                choice, we'll work with it either way. Although, we do not work with all cryptocurrencies, we have a
+                broad variety of over 24 currencies to choose from. <a href="1finance.html">Make a deposit</a>, now!</p>
+            <br>
+            <p><strong>Do you have more questions?</strong> Please do not hesitate to ask. Send us an email at
+                UGA@gmail.com</p><br><br>
+            <footer>
+                <div class="socialx">
+                    <h3>Follow us on social media:</h3>
+                    <a href="#"><i class="fa fa-phone"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                </div>
+                <a href="privacy.html">Privacy Policy</a> || UGA || <a href="T&C.html">Terms of Service</a>
+            </footer>
+        </div>
+    </section>
+    <script>
+        function showmenu() {
+            menu.style.left = "0"
+        }
+
+        function hidemenu() {
+            menu.style.left = "-200px"
+        }
+    </script>
+</body>
+
+</html>

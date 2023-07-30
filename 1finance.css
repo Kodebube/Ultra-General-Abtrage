@@ -1,0 +1,114 @@
+        .top {
+            margin: 0;
+            padding: 100px 50px;
+            font-family: sans-serif;
+        }
+
+        .top h1 {
+            font-weight: bold;
+        }
+
+        .button {
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 1px solid;
+            margin: 14px auto auto 440px;
+        }
+
+        .button:hover {
+            padding: 8px 19px;
+            transition: 0.5s ease all;
+            background: white;
+            color: black;
+        }
+
+        select {
+            padding: 20px;
+            font-size: 1.5em;
+            text-align: center;
+            position: static;
+            margin-left: 300px;
+        }
+
+        option:nth-child(even) {
+            background: rgb(226, 226, 226);
+        }
+
+        .banklist {
+            font-family: sans-serif;
+        }
+
+        .banklist p {
+            padding-left: 40px;
+        }
+
+        #ifbank {
+            display: none;
+        }
+
+        #ifcrypto {
+            display: none;
+        }
+
+        #btn1 {
+            display: none;
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .section2 {
+                left: 0;
+                width: 100%;
+            }
+
+            .section2 #welcome {
+                background: greenyellow;
+                left: 0;
+                top: 0;
+                right: 0;
+                padding: 20px 50px;
+                position: absolute;
+                width: 100%;
+                text-align: right;
+                z-index: 1000;
+                font-size: 15px;
+            }
+
+            .top {
+                padding: 100px 0 0 88px;
+            }
+
+            .top h1 {
+                font-size: 17px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            .button {
+                padding: 4px 7px;
+                font-size: 10px;
+                margin: 10px;
+            }
+
+            select {
+                padding: 20px;
+                font-size: .7em;
+                text-align: center;
+                position: relative;
+                margin-left: 0px;
+            }
+
+            .banklist {
+                padding-left: 88px;
+                padding: 40px 0 0 88px;
+            }
+
+            .banklist p {
+                padding-left: 0px;
+                padding-bottom: 20px;
+            }
+        }

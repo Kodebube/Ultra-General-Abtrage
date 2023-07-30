@@ -1,0 +1,145 @@
+.top {
+    padding: 130px 50px 0 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    opacity: .7;
+}
+
+.top1 {
+    border: 1px dotted;
+    padding: 20px;
+}
+
+#plus {
+    color: rgb(77, 76, 76);
+    position: absolute;
+    top: 0; left: 0;
+    margin: 300px 0 0 590px;
+    font-size: 1.4em;
+}
+
+.tree {
+    margin: 100px 40px 10px 40px;
+    font-family: sans-serif;
+}
+
+.tree h1 {
+    font-size: 2em;
+}
+
+.tree img {
+    width: 1000px;
+    margin-top: 50px;
+    opacity: .3;
+}
+
+#rec {
+    position: absolute;
+    margin-left: 450px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+p {
+    margin: 10px 40px;
+    font-size: 22px;
+}
+/*----------foter----------*/
+footer {
+    background: greenyellow;
+    text-align: center;
+    padding: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: none;
+    transition: 0.4s ease all;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .section2 {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .section2 #welcome {
+        background: greenyellow;
+        left: 0;
+        top: 0;
+        right: 0;
+        padding: 20px 50px;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+        z-index: 1000;
+        font-size: 15px;
+    }
+
+    .top {
+        padding: 95px 50px 0 50px;
+        font-size: 2em;
+    }
+    
+    .top1 {
+        border: 1px dotted;
+        padding: 20px;
+        display: flex;
+    }
+
+    #plus {
+        position: relative;
+        margin: auto auto 10px -25px;
+        display: flex;
+        float: left;
+        font-size: 1.4em;
+    }
+    
+    .tree {
+        margin: 60px 20px 10px 40px;
+    }
+    
+    .tree h1 {
+        font-size: 1em;
+    }
+    
+    .tree img {
+        width: 75%;
+        margin-top: 30px;
+        opacity: .3;
+    }
+    
+    #rec {
+        position: relative;
+        text-align: center;
+        margin-left: 26%;
+    }
+    
+    p {
+        margin: 10px 40px;
+        font-size: 16px;
+    }
+    
+     /*----------foter----------*/
+
+     footer {
+        padding: 13px;
+        font-size: 13px;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+}

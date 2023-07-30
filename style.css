@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin-top: none;
+    background: none;
+    display: flex;
+}
+
+/*----------Nav Bar----------*/
+
+.section1 {
+    background: green;
+    padding: none;
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+}
+
+.refresh {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px 0px white;
+}
+
+.section1 .refresh a {
+    text-decoration: none;
+}
+
+.section1 .refresh h1 {
+    font-size: 20px;
+    color: yellow;
+}
+
+.section1 .fa {
+    margin-right: 6px;
+}
+
+.section1 .fa-heart {
+    font-size: 20px;
+    margin: 10px auto 10px 10px;
+    color: pink;
+}
+
+.section1 li {
+    margin: 10px auto 37px auto;
+    padding: auto 20px;
+}
+
+.section1 li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    opacity: .7;
+    padding: 10px 20px;
+    border-bottom: 1px dotted white;
+}
+
+.section1 li a:hover {
+    opacity: 1;
+    border-bottom: 1px solid white;
+}
+
+#shiny {
+    opacity: 1;
+    border-bottom: 1px solid red;
+}
+
+.section1 h4 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.section1 .socials a {
+    color: white;
+}
+
+.section1 .fa-phone:hover {
+    color: brown;
+}
+
+.section1 .fa-facebook:hover {
+    color: skyblue;
+}
+
+.section1 .fa-whatsapp:hover {
+    color: rgb(16, 241, 16);
+}
+
+.section1 .fa-instagram:hover {
+    /*background: linear-gradient(45deg, red, orange, yellow)*/
+    color: orange;
+}
+
+.section1 .fa-twitter:hover {
+    color: skyblue;
+}
+
+.section1 .fa-envelope:hover {
+    color: rgb(252, 181, 89);
+}
+
+/*----------Top nav----------*/
+
+.section2 {
+    min-height: 90vh;
+    position: absolute;
+    left: 250px;
+}
+
+.section2 #welcome {
+    background: greenyellow;
+    margin: 0;
+    padding: 25px 340px 25px 20px;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    z-index: 1000;
+}
+
+#hidemenu,
+#showmenu {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    #hidemenu,
+    #showmenu {
+        display: block;
+    }
+
+    #hidemenu {
+        font-size: 24px;
+        position: absolute;
+        left: 170px;
+        top: -2px;
+        color: whitesmoke;
+    }
+
+    #hidemenu:hover {
+        color: red;
+        transition: 0.5s ease all;
+    }
+
+    #showmenu {
+        font-size: 30px;
+        position: absolute;
+        left: 30px;
+        top: 100px;
+    }
+
+    #showmenu:hover {
+        color: greenyellow;
+        transition: 0.8 ease all;
+    }
+
+    /*----------Nav Bar----------*/
+
+    .section1 {
+        width: 170px;
+        height: auto;
+        text-align: left;
+        position: absolute;
+        border-radius: 0 0 18px 18px;
+        top: 55px;
+        left: -200px;
+        bottom: 0;
+        /*background: linear-gradient(45deg, yellow, greenyellow, green);*/
+    }
+
+    .section1 ul {
+        margin-top: 20px;
+    }
+
+    .section1 li a {
+        padding: 10px 20px;
+        margin-left: 10px;
+        border-bottom: none;
+        opacity: 1;
+    }
+
+    .section1 li a:hover {
+        border-bottom: none;
+        color: red;
+    }
+
+    #menu {
+        transition: 2s ease all;
+        z-index: 10000;
+        height: 450px;
+    }
+
+    .refresh {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .section1 .refresh h1 {
+        font-size: 15px;
+    }
+
+    .section1 .fa {
+        margin-right: 4px;
+        display: none;
+    }
+
+    .section1 .fa-heart {
+        font-size: 14px;
+    }
+
+    h4 {
+        display: none;
+    }
+}

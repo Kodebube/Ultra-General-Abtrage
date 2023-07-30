@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="heart favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="section1" id="menu"><!--<h1 style="font-size:10vw">Hello World</h1>-->
+        <div class="refresh"><a href="index.html">
+                <h1><i class="fa fa-heart"></i> Ultra General Arbtrage</h1>
+            </a></div>
+        <ul>
+            <i class="fa fa-window-close" onclick="hidemenu()" id="hidemenu"></i>
+            <li title="The Home of the Champion!"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+            <li title="Connect and grow your team"><a href="team.html"><i class="fa fa-group"></i>Team</a></li>
+            <li title="Invest with UGA"><a href="invest.html"><i class="fa fa-bar-chart"></i>Invest</a></li>
+            <li title="Manage your finances"><a href="finance.html"><i class="fa fa-money"></i>Finances</a></li>
+            <li title="Your Profile"><a href="you.html"><i class="fa fa-user"></i>You</a></li>
+            <li title="Send us your feedback"><a href="contact.html" id="shiny"><i class="fa fa-phone"></i>Contact
+                    Us</a></li>
+            <li title="Learn more about us"><a href="about.html"><i class="fa fa-question"></i>About UGA</a>
+            <li title="Exit your account"><a href="login.html"><i class="fa fa-sign-out"></i>Log out</a></li>
+        </ul>
+        <h4>Follow us on social media:</h4>
+        <div class="socials">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1 id="welcome">Contact Us</h1>
+        <div class="all">
+            <i class="fa fa-bars" onclick="showmenu()" id="showmenu"></i>
+            <p>We thank you for your feedback. It really helps us to know where and when we are lacking. Kindly fill out
+                the form with details regarding your inquiry, and one of our team members will respond by email.</p>
+            <span><a href="#" title="Send us an email, we'll reply as soon as possible">Email Us</a></span>
+            <span><a href="#">Follow our socials</a></span>
+            <span><a href="#" title="Join our telegram channel to get the latest updates!">Telegram</a></span>
+            <span><a href="#" title="Check out our linkedin account">Linkedin</a></span>
+            
+            <div class="phone">
+                <a href="#"><i class="fa fa-envelope"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-telegram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <!-----------THE QUESTIONAIRE PART------------->
+        <section class="form">
+            <form action="">
+                <input id="name" type="text" placeholder="Full Name"><br><br><br>
+                <input id="no." type="text" placeholder="Phone number"><br><br><br>
+                <input id="email" type="email" placeholder="Your Email"><br><br><br>
+                <textarea id="msg" name="text" id="" cols="30" rows="10"
+                    placeholder="Your Message"></textarea><br><br><br>
+                <input type="submit" id="submit">
+            </form>
+            </div>
+        </section>
+        <div>
+            <footer><a href="privacy.html">Privacy Policy</a> || UGA || <a href="T&C.html">Terms of Service</a></footer>
+        </div>
+        <script>
+            let NAME = document.getElementById("name")
+            let NUMBER = document.getElementById("no.")
+            let EMAIL = document.getElementById("email")
+            let MSG = document.getElementById("msg")
+
+            document.getElementById("submit").onclick = function () {
+
+                if (NAME.value == false || NUMBER.value == false || EMAIL.value == false || MSG.value == false) {
+                    window.alert("You must fill the form, Completely!")
+                }
+                else {
+                    window.alert("We have received your message! Thank you for your feedback")
+                }
+            }
+
+            function showmenu() {
+                menu.style.left = "0"
+            }
+
+            function hidemenu() {
+                menu.style.left = "-200px"
+            }
+        </script>
+</body>
+
+</html>

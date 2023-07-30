@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA - Deposit Money</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="1finance.css">
+    <link rel="icon" href="heart favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+    <section class="section1" id="menu"><!--<h1 style="font-size:10vw">Hello World</h1>-->
+        <div class="refresh"><a href="index.html">
+                <h1><i class="fa fa-heart"></i> Ultra General Arbtrage</h1>
+            </a></div>
+        <ul>
+            <i class="fa fa-window-close" onclick="hidemenu()" id="hidemenu"></i>
+            <li title="The Home of the Champion!"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+            <li title="Connect and grow your team"><a href="team.html"><i class="fa fa-group"></i>Team</a></li>
+            <li title="Invest with UGA"><a href="invest.html"><i class="fa fa-bar-chart"></i>Invest</a></li>
+            <li title="Manage your finances"><a href="finance.html" id="shiny"><i class="fa fa-money"></i>Finances</a>
+            </li>
+            <li title="Your Profile"><a href="you.html"><i class="fa fa-user"></i>You</a></li>
+            <li title="Send us your feedback"><a href="contact.html"><i class="fa fa-phone"></i>Contact Us</a></li>
+            <li title="Learn more about us"><a href="about.html"><i class="fa fa-question"></i>About UGA</a>
+            <li title="Exit your account"><a href="login.html"><i class="fa fa-sign-out"></i>Log out</a></li>
+        </ul>
+        <h4>Follow us on social media:</h4>
+        <div class="socials">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1 id="welcome">FINANCES</h1>
+        <div class="top">
+            <i class="fa fa-bars" onclick="showmenu()" id="showmenu"></i>
+            <h1>DEPOSIT MONEY</h1><br>
+            <p>Select your payment option:</p><br>
+            <select name="payz" id="paymethod" required autofocus>
+                <option value="mtcheeew" id="bankbtn">Pay with mobile bank transer</option>
+                <option value="mtcheew" id="cryptobtn">Pay with Crypto</option>
+            </select><br>
+            <input type="submit" name="pay" class="button" id="btn">
+        </div>
+        <div class="banklist">
+            <p name="banks" id="ONEWAY"></p>
+            <select name="banks" id="ifbank">
+                <option value="a" disabled>Please select your bank</option>
+                <option value="fbn" id="fbn">First Bank of Nigeria</option>
+                <option value="acc" id="acc">Access Bank</option>
+                <option value="uba" id="uba">United Bank of Africa</option>
+                <option value="ibtc" id="ibtc">Stanbic IBTC Bank</option>
+                <option value="stb" id="stb">Sterling Bank</option>
+                <option value="fid" id="fid">Fidelity Bank</option>
+                <option value="ppb" id="ppb">Palmpay Mobile Bank</option>
+                <option value="ztb" id="ztb">Zenith Bank</option>
+                <option value="opb" id="opb">Opay Mobile Bank</option>
+                <option value="pvb" id="pvb">Providus Bank</option>
+                <option value="pp" id="pp">PayPal</option>
+            </select>
+            <select name="banks" id="ifcrypto">
+                <option value="b" disabled>Please select your cryptocurrency</option>
+                <option value="btc" id="btc">Bitcoin (BTC)</option>
+                <option value="eth" id="eth">Ethereum (ETH)</option>
+                <option value="usdt" id="usdt">Tether (USDT)</option>
+                <option value="usdc" id="usdc">USD Coin (USDC)</option>
+                <option value="bnb" id="bnb">BNB (BNB)</option>
+                <option value="busd" id="busd">Binance Coin USD (BUSD)</option>
+                <option value="xrp" id="xrp">XRP (XRP)</option>
+                <option value="ada" id="ada">Cardano (ADA)</option>
+                <option value="sql" id="sql">Solana (SOL)</option>
+                <option value="doge" id="doge">Dogecoin (DOGE)</option>
+                <option value="dot" id="dot">Polkadot (DOT)</option>
+                <option value="dai" id="dai">Dai (DAI)</option>
+                <option value="poly" id="poly">Polygon (MATIC)</option>
+                <option value="shib" id="shib">Shiba Inu (SHIB)</option>
+                <option value="trx" id="trx">TRON (TRX)</option>
+                <option value="avax" id="avax">Avalanche (AVAX)</option>
+                <option value="leo" id="leo">UNUS SED LEO (LEO)</option>
+                <option value="ltc" id="ltc">Litecoin (LTC)</option>
+                <option value="xlm" id="xlm">Stellar (XLM)</option>
+                <option value="bch" id="bch">Bitcoin Cash (BCH)</option>
+            </select>
+            <input type="submit" name="pay" class="button" id="btn1">
+        </div>
+        <p id="TWOWAYS"></p>
+    </section>
+    <script src="1finance.js"></script>
+</body>
+
+</html>

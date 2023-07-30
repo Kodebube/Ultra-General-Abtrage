@@ -1,0 +1,333 @@
+.all {
+    margin: 0;
+    padding-top: 130px;
+    font-family: sans-serif;
+}
+
+.headerr {
+    font-size: 2.5em;
+    margin-left: 40px;
+    color: greenyellow;
+}
+
+p {
+    font-size: 1.5em;
+    margin: auto 40px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section2 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 92%;
+    margin: 40px 40px 10px 40px;
+}
+
+.section2 td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.section2 tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+details {
+    margin-left: 40px;
+}
+
+details ul {
+    margin-left: 40px;
+}
+
+#btn {
+    margin: 35px auto auto 430px;
+    padding: 10px;
+    background: linear-gradient(45deg, yellow, greenyellow, green);
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+#btn:hover {
+    width: 300px;
+    margin-left: 390px;
+    transition: 0.8s ease all;
+    background: linear-gradient(45deg, gold, greenyellow, yellow);
+}
+
+#caret {
+    margin: 0 540px 0 530px;
+    font-size: 3em;
+    display: none;
+}
+
+#caret:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.section2 h1,
+.section2 h4 {
+    margin-left: 40px;
+}
+
+h4 {
+    color: red;
+}
+
+/*----------Packages----------*/
+#JAVA {
+    display: none;
+    background: url(images/Space.jfif);
+    color: white;
+    padding-top: 100px;
+}
+
+.box {
+    background: linear-gradient(45deg, red, blue, yellow);
+    width: 60em;
+    height: 13em;
+    border-radius: 120px 10px 200px 120px;
+    font-family: sans-serif;
+    margin: auto auto 70px 59px;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 20px 0px whitesmoke;
+}
+
+.box h1 {
+    padding: 20px;
+    padding-bottom: 20px;
+    color: gold;
+    font-size: 2em;
+    font-family: cursive;
+}
+
+.box h3 {
+    margin-left: 59px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.span {
+    margin-left: 59px;
+    font-size: 20px;
+}
+
+.span a {
+    color: white;
+}
+
+.box .fa {
+    color: white;
+    margin-right: 13px;
+    font-size: 20px;
+}
+
+.linkz {
+    margin-top: 20px;
+}
+
+#linkz {
+    float: right;
+}
+
+.box a .fa-bug:hover {
+    color: yellow;
+}
+
+.box a .fa-close:hover {
+    color: red;
+}
+
+.box a .fa-info-circle:hover {
+    color: skyblue;
+}
+
+/*----------foter----------*/
+footer {
+    background: greenyellow;
+    text-align: center;
+    padding: 17px;
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: none;
+    transition: 0.4s ease all;
+}
+
+@media screen and (max-width: 800px) {
+
+    .section2 {
+        position: absolute;
+        left: 0;
+        max-width: 100%;
+    }
+
+    .section2 #welcome {
+        background: greenyellow;
+        left: 0;
+        top: 0;
+        right: 0;
+        padding: 20px 50px;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+        z-index: 1000;
+        font-size: 15px;
+    }
+
+    #no {
+        display: none;
+    }
+
+    .all {
+        padding-top: 100px;
+    }
+
+    .headerr {
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        margin-left: 80px;
+    }
+
+    #qqq {
+        font-size: 3em;
+        width: 160px;
+    }
+
+    #down1 {
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 1em;
+        margin: auto 20px;
+    }
+
+    .section2 table {
+        margin: 20px;
+        font-size: 13px;
+    }
+
+    details {
+        margin-left: 20px;
+    }
+
+    details ul {
+        margin-left: 30px;
+        font-size: 10px;
+    }
+
+    #btn {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+        font-size: 11px;
+    }
+
+    #btn:hover {
+        width: auto;
+        margin-left: auto;
+    }
+
+    #caret {
+        margin: 0 50px;
+        font-size: 2.5em;
+    }
+
+    h4 {
+        display: block;
+        font-size: 13px;
+    }
+
+    /*----------Packages----------*/
+    #JAVA {
+        padding-top: 20px;
+        width: auto;
+    }
+
+    .box {
+        width: 90vw;
+        height: 5.5em;
+        margin: 50px 20px;
+    }
+
+    .box:hover {
+        box-shadow: 0px 0px 9px 0px whitesmoke;
+    }
+
+    .box h1 {
+        padding: 2px;
+        padding-bottom: 10px;
+        font-size: .9em;
+    }
+
+    .box h3 {
+        margin-left: 10px;
+        font-size: 9px;
+        padding-bottom: 10px;
+    }
+
+
+    .span {
+        margin-left: 10px;
+        font-size: 9px;
+    }
+
+    /*.span a {
+        color: white;
+    }*/
+
+    .box .fa {
+        color: white;
+        margin-right: 13px;
+        font-size: 9px;
+    }
+
+    .linkz {
+        margin-top: 5px;
+        margin-left: 11px;
+    }
+
+    .linkz .fa {
+        font-size: 11px;
+    }
+
+    #linkz {
+        float: right;
+    }
+
+
+    /*----------foter----------*/
+
+    footer {
+        padding: 13px;
+        font-size: 13px;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+}
